@@ -21,13 +21,7 @@ public class NotOrtalamasi {
          toplam = matematik+fizik+kimya+turkce+tarih+muzik;
          ortalama =(toplam/6.0);
         System.out.println("not ortalamasi : "+ ortalama);
-        if (ortalama>60){
-            System.out.println("Sinifi gecti");
-        }
-        else
-        {
-            System.out.println("Sinifta kaldi");
-        }
+        System.out.println(ortalama > 60 ? "sinifi gecti" : "Sinifta kaldi");
 
     }
 }
